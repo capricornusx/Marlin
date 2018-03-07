@@ -1030,7 +1030,7 @@
 
 // Homing speeds (mm/m)
 #define HOMING_FEEDRATE_XY (45*60)
-#define HOMING_FEEDRATE_Z  (7*60)
+#define HOMING_FEEDRATE_Z  (9*60)
 
 // @section calibrate
 
