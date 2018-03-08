@@ -355,9 +355,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
 // ZAV-MAX
-  #define  DEFAULT_Kp 32.48
-  #define  DEFAULT_Ki 4.61
-  #define  DEFAULT_Kd 57.21
+  #define  DEFAULT_Kp 29.99
+  #define  DEFAULT_Ki 3.70
+  #define  DEFAULT_Kd 60.80
 
 #endif // PIDTEMP
 
@@ -373,7 +373,7 @@
 // If your configuration is significantly different than this and you don't understand the issues involved, you probably
 // shouldn't use bed PID until someone else verifies your hardware works.
 // If this is enabled, find your own PID constants below.
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -389,9 +389,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 239.67
-  #define  DEFAULT_bedKi 19.66
-  #define  DEFAULT_bedKd 730.36
+  #define  DEFAULT_bedKp 222.85
+  #define  DEFAULT_bedKi 17.55
+  #define  DEFAULT_bedKd 707.41
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
